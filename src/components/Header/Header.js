@@ -17,7 +17,9 @@ function Header() {
             <div className={styles.header_container}>
                 <div className={styles.header}>
                     <div className={styles.logo_container}>
-                        <BsMastodon size={40} />
+                        <div className={styles.company_logo}>
+                            <BsMastodon size={40} />
+                        </div>
                         <div onClick={toggleLogo} className={styles.navbar_button}>
                             {toggle.isNavbar?<AiFillCloseCircle size={40}/>:<HiViewList size={40}/>}
                         </div>

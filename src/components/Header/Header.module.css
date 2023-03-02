@@ -3,18 +3,20 @@
     grid-template-columns: 1fr;
     grid-template-rows: 80px;
     width: 100%;
-    /* width: 1500px; */
-    /* position: fixed; */
+    position: fixed;
+    top: 0;
+    left: 0;  
 }
 .header{
     background-color: pink;
     /* display: flex; */
     justify-content: space-between;
 
+
 }
 .logo_container{
     margin: auto 0;
-    padding: 0 0 0 25px;
+    padding: 0 25px 0 25px;
 
 }
 /* @media only screen and (min-width: 580px) {
@@ -46,24 +48,26 @@
 @media only screen and (max-width:600px){
     .logo_container{
         display: flex;
-        background-color: red;
+        /* background-color: red; */
         justify-content: space-between;
-       
+        margin: auto 0;
+        padding: 10px 25px 10px 25px;
     }
     .navbar_container{
-        background-color: rgba(0,0,0,0.2);  
+        background-color: rgba(255, 255, 255, 0.6);  
         display: grid;
         grid-template-columns: 1fr;
         /* grid-template-rows: 200px; */
     }
+   
     .sample{
-        background-color: aqua;
+        /* background-color: aqua; */
     }
     .feature{
-        background-color: blue;
+        /* background-color: blue; */
     }
     .layout{
-        background-color: cadetblue;
+        /* background-color: cadetblue; */
     }
     .ourshop{
 
@@ -77,8 +81,10 @@
     .navbar_container div{
         font-size: 20px;
         text-align: center;
-        padding: 10px;
-        background-color: cyan;
+        margin: 10px auto 0;
+        float: right;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
     }
     .navbar_container_disable{
         display: none;
@@ -90,19 +96,29 @@
 
 @media only screen and (min-width: 600px) {
     .header{
-        background: green;
+        /* background: green; */
         display: flex;
+        padding-right: 40px;
     }
     .navbar_button{
         display: none;
     }
     .navbar_container_disable{
         display: flex;
-        width: 700px;
+        /* width: 75%; */
         margin: auto 0;
         justify-content: space-evenly;
-        font-size: 25px;
-        background-color: red;
+        font-size: 20px;
+        /* background-color: red; */
 
+    }
+    .navbar_container_disable div{
+        margin-left: 16px;
+    }
+  }
+
+  @media only screen and (min-width: 768px){
+    .navbar_container_disable{
+        font-size: 25px;
     }
   }
