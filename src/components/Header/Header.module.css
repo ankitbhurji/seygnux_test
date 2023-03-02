@@ -1,0 +1,108 @@
+.header_container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px;
+    width: 100%;
+    /* width: 1500px; */
+    /* position: fixed; */
+}
+.header{
+    background-color: pink;
+    /* display: flex; */
+    justify-content: space-between;
+
+}
+.logo_container{
+    margin: auto 0;
+    padding: 0 0 0 25px;
+
+}
+/* @media only screen and (min-width: 580px) {
+    .navbar_container {
+        display: flex;
+        width: 700px;
+        justify-content: space-evenly;
+        background-color: red;
+    }
+    .navbar_container div{
+        padding-right: 30px;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: auto 0 ;
+    }
+  } */
+/* @media only screen and (max-width:580px) {
+    .navbar_container{
+        background-color: blue;
+        display: flex;
+    }
+    .navbar_container div{
+        padding-right: 10px;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: auto 0 ;
+    }
+} */
+@media only screen and (max-width:600px){
+    .logo_container{
+        display: flex;
+        background-color: red;
+        justify-content: space-between;
+       
+    }
+    .navbar_container{
+        background-color: rgba(0,0,0,0.2);  
+        display: grid;
+        grid-template-columns: 1fr;
+        /* grid-template-rows: 200px; */
+    }
+    .sample{
+        background-color: aqua;
+    }
+    .feature{
+        background-color: blue;
+    }
+    .layout{
+        background-color: cadetblue;
+    }
+    .ourshop{
+
+    }
+    .buy_theme{
+
+    }
+    .search_container{
+        grid-row: 1;
+    }
+    .navbar_container div{
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+        background-color: cyan;
+    }
+    .navbar_container_disable{
+        display: none;
+    }
+    .search_container{
+        
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .header{
+        background: green;
+        display: flex;
+    }
+    .navbar_button{
+        display: none;
+    }
+    .navbar_container_disable{
+        display: flex;
+        width: 700px;
+        margin: auto 0;
+        justify-content: space-evenly;
+        font-size: 25px;
+        background-color: red;
+
+    }
+  }
