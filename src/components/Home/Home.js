@@ -1,5 +1,7 @@
 import styles from './Home.module.css';
 import { BsDashLg } from "react-icons/bs";
+import Footer from '../Footer/Footer';
+import LearnMore from '../LearnMore/LearnMore';
 
 function Home() {
     return ( 
@@ -37,10 +39,67 @@ function Home() {
                     </div>
                 </div>
             </div>
+
             <div className={styles.home_container_3}>
+                <div className={styles.brand_heading_container}>
+                    <div className={styles.brand_heading}>We design brands.</div>
+                    <div className={styles.brand_sub_heading}>A simple look is all you need to crush your competition.</div>
+                </div>
+                <div className={styles.brand_dash_container}>
+                    <BsDashLg />
+                </div>
+                <div className={styles.brand_name_container}>
+                    <div className={styles.brand_name_1}>les avenirs</div>
+                    <div className={styles.brand_name_2}>avec'simple</div>
+                    <div className={styles.brand_name_3}>WHITESPACE</div>
+                    <div className={styles.brand_name_4}>m.n.mal.sm</div>
+                    <div className={styles.brand_name_5}>barcelona33</div>
+                    <div className={styles.brand_name_6}>smoothVANILLA</div>
+                </div>
             </div>
-            <div className={styles.home_container_4}></div>
-        </div>
+
+            <div className={styles.home_container_4}>
+                <div className={styles.image_heading_container}>
+                    <div className={styles.image_heading}>
+                        We create stories.
+                    </div>
+                    <div className={styles.image_sub_heading}>
+                        A killer narrative will turn your readers into raving fans.
+                    </div>
+                </div>
+                <div className={styles.image_dash}>
+                    <BsDashLg/>
+                </div>
+                <div className={styles.image_container}>
+                        <div className={styles.image}>
+                            <img className={styles.fake_image} src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg' width="600" height="400"/>
+                            <div className={styles.image_name}>OVEROCMMING CREATIVE BLOCK</div>
+                            <div className={styles.image_time}>Brian Gardner. May 1, 2017</div>
+                        </div>
+                        <div className={styles.image}>
+                            <img className={styles.fake_image} src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg ' width="600" height="400"/>
+                            <div className={styles.image_name}>WHY COMMUNICATION IS KEY</div>
+                            <div className={styles.image_time}>Brian Gardner. May 1, 2017</div>
+                        </div>
+                        <div className={styles.image}>
+                            <img className={styles.fake_image} src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg' width="600" height="400"/>
+                            <div className={styles.image_name}>OVEROCMMING CREATIVE BLOCK</div>
+                            <div className={styles.image_time}>Brain Gardner. May 1, 2017</div>
+                        </div>
+                        <div className={styles.image}>
+                            <img className={styles.fake_image} src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg' width="600" height="400"/>
+                            <div className={styles.image_name}>OVEROCMMING CREATIVE BLOCK</div>
+                            <div className={styles.image_time}>Brain Gardner. May 1, 2017</div>
+                        </div>
+                </div>
+                </div>
+            <div>
+                <LearnMore/>
+            </div>
+            <div>
+                <Footer/>
+            </div>
+            </div>
      );
 }
 

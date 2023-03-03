@@ -1,0 +1,19 @@
+
+.container{
+    background-color: rgb(40, 178, 228);
+    padding: 0 5px 0 5px;
+}
+.learn_more{
+ display: flex;
+ justify-content: center;
+}
+.info{
+    margin: 14px 10px 10px 0;
+    font-size: 20px;
+    color: white;
+}
+.button{
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+}
