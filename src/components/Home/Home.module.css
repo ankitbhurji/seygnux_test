@@ -694,6 +694,9 @@ button:hover{
     grid-row-gap: 1%;
     padding: 100px 0 100px 60px;
 }
+.image_name{
+    margin-top: 10px;
+}
 @media only screen and (max-width: 600px) {
     .home_container_4{
         /* background-color: lime; */
