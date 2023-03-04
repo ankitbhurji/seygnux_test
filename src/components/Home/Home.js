@@ -71,26 +71,26 @@ function Home() {
                     <BsDashLg/>
                 </div>
                 <div className={styles.image_container}>
+                    <div className={styles.image}>
+                        <img className={styles.fake_image} src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg' width="600" height="400"/>
+                        <div className={styles.image_name}>OVEROCMMING CREATIVE BLOCK</div>
+                        <div className={styles.image_time}>Brian Gardner. May 1, 2017</div>
+                    </div>
+                    <div className={styles.image}>
+                        <img className={styles.fake_image} src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg ' width="600" height="400"/>
+                        <div className={styles.image_name}>WHY COMMUNICATION IS KEY</div>
+                        <div className={styles.image_time}>Brian Gardner. May 1, 2017</div>
+                    </div>
                         <div className={styles.image}>
-                            <img className={styles.fake_image} src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg' width="600" height="400"/>
-                            <div className={styles.image_name}>OVEROCMMING CREATIVE BLOCK</div>
-                            <div className={styles.image_time}>Brian Gardner. May 1, 2017</div>
-                        </div>
-                        <div className={styles.image}>
-                            <img className={styles.fake_image} src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg ' width="600" height="400"/>
-                            <div className={styles.image_name}>WHY COMMUNICATION IS KEY</div>
-                            <div className={styles.image_time}>Brian Gardner. May 1, 2017</div>
-                        </div>
-                        <div className={styles.image}>
-                            <img className={styles.fake_image} src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg' width="600" height="400"/>
-                            <div className={styles.image_name}>OVEROCMMING CREATIVE BLOCK</div>
-                            <div className={styles.image_time}>Brain Gardner. May 1, 2017</div>
-                        </div>
-                        <div className={styles.image}>
-                            <img className={styles.fake_image} src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg' width="600" height="400"/>
-                            <div className={styles.image_name}>OVEROCMMING CREATIVE BLOCK</div>
-                            <div className={styles.image_time}>Brain Gardner. May 1, 2017</div>
-                        </div>
+                        <img className={styles.fake_image} src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg' width="600" height="400"/>
+                        <div className={styles.image_name}>OVEROCMMING CREATIVE BLOCK</div>
+                        <div className={styles.image_time}>Brain Gardner. May 1, 2017</div>
+                    </div>
+                    <div className={styles.image}>
+                        <img className={styles.fake_image} src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg' width="600" height="400"/>
+                        <div className={styles.image_name}>OVEROCMMING CREATIVE BLOCK</div>
+                        <div className={styles.image_time}>Brain Gardner. May 1, 2017</div>
+                    </div>
                 </div>
                 </div>
             <div>

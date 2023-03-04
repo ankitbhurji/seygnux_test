@@ -1,6 +1,5 @@
 body{
     background-image: url('https://img.freepik.com/free-photo/low-angle-grayscale-shot-business-building_181624-19724.jpg?w=740&t=st=1677787027~exp=1677787627~hmac=76b71e0dc5cc85679157263341a90ea846b3dd44b9fcbfd7e05f610b0f107675');
-    /* background-color: rgba(30, 39, 46); */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -19,11 +18,9 @@ button{
 button:hover{
     opacity: 0.8;
 }
-
 .home_container{
     display: grid;
     grid-template-columns: 1fr;
-    /* grid-template-rows: 400px auto 200px 200px; */
     grid-template-rows: auto auto auto auto;
     margin: 85px auto 0;
     width: 100%;
@@ -32,24 +29,14 @@ button:hover{
     top: 0; right: 0; bottom: 0; left: 0;
     z-index: -1;
 }
-/* .home_container_1{
-    background-color: aqua;
-    display: grid;
-    grid-template-columns: 80%;
-    grid-template-rows: 300px;
-} */
 .row_1{
     /* background-color: gray; */
 }
-/* .row_1_text_1{
-    font-size: 50px;
-    background-color: red;
-    width: 100%;
-} */
-/* .row_1_text_2{
-    background-color: blue;
-    width: 100%;
-} */
+.row_1_text_2{
+    margin-top: 8px;
+}
+
+
 
 /* row-1  ......................................*/
 @media only screen and (max-width: 600px) {
@@ -79,7 +66,6 @@ button:hover{
         /* background-color: rgb(10, 37, 37); */
         display: grid;
         grid-template-columns: 80%;
-        /* grid-template-rows: 300px; */
         grid-template-rows: auto;
         padding: 60px;
         color: white;
@@ -103,7 +89,6 @@ button:hover{
         /* background-color: rgb(10, 37, 37); */
         display: grid;
         grid-template-columns: 80%;
-        /* grid-template-rows: 300px; */
         grid-template-rows: auto;
         padding: 60px;
     }
@@ -194,7 +179,6 @@ button:hover{
         /* background-color: pink;   */
         display: grid;
         grid-template-columns: 100%;
-        /* grid-template-rows: 40% 100%; */
         padding: 60px;
         
     }
@@ -204,9 +188,7 @@ button:hover{
     .container_2_row_2{
         /* background-color: rgb(76, 76, 145); */
         display: grid;
-        /* grid-template-columns: repeat(3, 1fr); */
         grid-template-columns: 1fr;
-        /* grid-template-rows:200px ; */
     }
     .container_2_row_1_text_1{
         font-size: 25px;
@@ -217,7 +199,8 @@ button:hover{
     }
     .container_2_row_2_col{
         width: 100%;
-        margin: 10px auto 0;
+        /* margin: 10px auto 0; */
+        margin: 10px 0 14px 0;
     }
     .container_2_row_2_col_heading{
         font-size: 20px;
@@ -238,18 +221,14 @@ button:hover{
         background-color: white;
         display: grid;
         grid-template-columns: 100%;
-        /* grid-template-rows: 40% 100%; */
         padding: 60px;
     }
     .container_2_row_1{
         /* background-color: blue; */
     }
     .container_2_row_2{
-        /* background-color: rgb(76, 76, 145); */
         display: grid;
-        /* grid-template-columns: repeat(3, 1fr); */
         grid-template-columns: 1fr;
-        /* grid-template-rows:200px ; */
     }
     .container_2_row_1_text_1{
         font-size: 32px;
@@ -260,7 +239,7 @@ button:hover{
     }
     .container_2_row_2_col{
         width: 100%;
-        margin: 10px auto 0;
+        margin: 10px 0 14px 0;
     }
     .container_2_row_2_col_heading{
         font-size: 20px;
@@ -281,7 +260,6 @@ button:hover{
         background-color: white;
         display: grid;
         grid-template-columns: 100%;
-        /* grid-template-rows: 40% 100%; */
         padding: 60px;
     }
     .container_2_row_1{
@@ -291,8 +269,6 @@ button:hover{
         /* background-color: rgb(76, 76, 145); */
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        /* grid-template-columns: 1fr; */
-        /* grid-template-rows:200px ; */
     }
     .container_2_row_1_text_1{
         font-size: 32px;
@@ -323,8 +299,6 @@ button:hover{
         background-color: white;
         display: grid;
         grid-template-columns: 100%;
-        /* grid-template-rows: 40% 100%; */
-        /* padding: 10px; */
         padding: 100px  0 100px 8px;
     }
     .container_2_row_1{
@@ -336,8 +310,6 @@ button:hover{
         /* background-color: rgb(76, 76, 145); */
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        /* grid-template-columns: 1fr; */
-        /* grid-template-rows:200px ; */
     }
     .container_2_row_1_text_1{
         font-size: 36px;
@@ -358,8 +330,6 @@ button:hover{
         /* background-color: rgb(76, 76, 145); */
         width: 86%;
         margin: 0 auto 0;
-        /* display: grid; */
-        /* grid-template-columns: repeat(3, 1fr); */
     }
     .container_2_row_2_col{
         width: 80%;
@@ -385,10 +355,7 @@ button:hover{
         /* background-color: pink; */
         display: grid;
         grid-template-columns: 100%;
-        /* grid-template-rows: 40% 100%; */
-        /* padding: 10px 0 0 120px; */
         background-color: white;
-        /* grid-row-gap: 25px; */
         padding: 100px  0 100px 8px;
     }
     .container_2_row_1{
@@ -411,7 +378,6 @@ button:hover{
     }
     .container_2_row_2{
         /* background-color: rgb(76, 76, 145); */
-        /* width: 96%; */
         margin: 0 auto 0;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -437,7 +403,6 @@ button:hover{
         line-height: 1.8;
         letter-spacing: 1px;
         font-family: Arial, Helvetica, sans-serif;
-        /* width: 120%; */
         /* background-color: red; */
     }
   }
@@ -447,24 +412,6 @@ button:hover{
   
   
 /* brand_container....................................... */
-/* .home_container_3{
-    background-color: orange;
-}
-.brand_heading_container{
-    background-color: rgb(121, 43, 43);
-}
-.brand_heading{
-    background-color: rgb(46, 103, 66);
-}
-.brand_sub_heading{
-    background-color: bisque;
-}
-.brand_dash_container{
-    background-color: purple;
-}
-.brand_name_container{
-    background-color: brown;
-} */
 .home_container_3{
     padding: 100px 0 100px 60px;
 }
@@ -472,7 +419,7 @@ button:hover{
     margin: 15px 0 12px 0;
 }
 .brand_name_1{
-    float: left;
+    /* float: left; */
     margin-right: 5%;
     font-family:  Brush Script MT;
     font-style: italic;
@@ -525,37 +472,36 @@ button:hover{
     }
     .brand_dash_container{
         color: white;
-        /* width: 87%; */
-        /* margin: 20px auto 15px; */
         margin: 15px 0 12px 0;
     }
     .brand_name_container{
         padding-left: 1px;
-        width: 90%;
+        width: 100%;
+        /* background-color: red; */
     }
     .brand_name_1{
         float: left;
-        margin-right: 5%;
+        margin-right: 2%;
     }
     .brand_name_2{
         float: left;
-        margin-right: 5%;
+        margin-right: 2%;
     }
     .brand_name_3{
         float: left;
-        margin-right: 5%;
+        margin-right: 2%;
     }
     .brand_name_4{
         float: left;
-        margin-right: 5%;
+        margin-right: 2%;
     }
     .brand_name_5{
         float: left;
-        margin-right: 5%;
+        margin-right: 2%;
     }
     .brand_name_6{
         float: left;
-        margin-right: 5%;
+        margin-right: 2%;
     }
     
 }
@@ -564,7 +510,6 @@ button:hover{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
-        /* padding: 0 0 0 60px; */
         color: white;
     }
     .brand_heading_container{
@@ -586,8 +531,9 @@ button:hover{
     }
     .brand_name_container{
         padding-left: 1px;
-        width: 90%;
+        width: 100%;
         font-size: 20px;
+        /* background-color: rgb(81, 47, 47); */
     }
     .brand_name_1{
         float: left;
@@ -620,7 +566,6 @@ button:hover{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
-        /* padding: 0 0 0 60px; */
         color: white;
     }
     .brand_heading_container{
@@ -639,7 +584,7 @@ button:hover{
     }
     .brand_dash_container{
         width: 89%;
-        margin: 0 auto 0;
+        margin: 15px auto 15px;
     }
     .brand_name_container{
         padding-left: 1px;
@@ -650,29 +595,29 @@ button:hover{
     }
     .brand_name_1{
         float: left;
-        margin-right: 5%;
+        margin-right: 3%;
     }
     .brand_name_2{
         float: left;
-        margin-right: 5%;
+        margin-right: 3%;
         /* color: rgba(255, 255, 255, 0.5); */
     }
     .brand_name_3{
         float: left;
-        margin-right: 5%;
+        margin-right: 3%;
     }
     .brand_name_4{
         float: left;
-        margin-right: 5%;
+        margin-right: 3%;
         /* color: rgba(255, 255, 255, 0.5); */
     }
     .brand_name_5{
         float: left;
-        margin-right: 5%;
+        margin-right: 3%;
     }
     .brand_name_6{
         float: left;
-        margin-right: 5%;
+        margin-right: 3%;
     }
     
 }
@@ -681,7 +626,6 @@ button:hover{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
-        /* padding: 50px 0 180px 60px; */
         padding: 100px 0 100px 60px;
         color: white;
     }
@@ -712,24 +656,24 @@ button:hover{
     }
     .brand_name_1{
         float: left;
-        margin-right: 5%;
+        margin-right: 3%;
     }
     .brand_name_2{
         float: left;
-        margin-right: 5%;
+        margin-right: 3%;
     }
     .brand_name_3{
         float: left;
-        margin-right: 5%;
+        margin-right: 3%;
     }
     .brand_name_4{
         float: left;
-        margin-right: 5%;
+        margin-right: 3%;
 
     }
     .brand_name_5{
         float: left;
-        margin-right: 5%;
+        margin-right: 3%;
     }
     .brand_name_6{
         float: left;
@@ -755,10 +699,7 @@ button:hover{
         /* background-color: lime; */
         display: grid;
         grid-template-columns: 1fr;
-        /* grid-template-rows: 100px 20px auto; */
         padding: 50px 40px 50px 60px;
-        /* width: 77%; */
-        /* margin: 0 auto 0; */
     }
     .image_heading_container{
         /* background-color: red; */
@@ -782,9 +723,6 @@ button:hover{
     .image_container{
         display: grid;
         grid-template-columns: repeat(1 , 1fr);
-        /* grid-template-rows: 250px 250px; */
-        /* grid-template-rows: 250px; */
-        /* grid-row-gap: 4%; */
         grid-column-gap: 10%;
         width: 100%;
         /* background-color: rgb(136, 76, 76); */
@@ -798,9 +736,6 @@ button:hover{
     }
     .fake_image{
         width: 100%;
-        /* max-width: 400px; */
-        /* max-height: 100%; */
-        /* height: auto; */
         height: 100%;
     }
 }
@@ -810,7 +745,6 @@ button:hover{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 60px 20px auto;
-        /* padding: 0 0 0 60px; */
     }
     .image_heading_container{
         /* background-color: red; */
@@ -834,11 +768,9 @@ button:hover{
     .image_container{
         display: grid;
         grid-template-columns: repeat(2 , 1fr);
-        /* grid-row-gap: 10%; */
         grid-column-gap: 10%;
         width: 90%;
         /* background-color: rgb(136, 76, 76); */
-        /* margin: 0 auto 0 ; */
     }
     .image{
         /* background-color: red; */
@@ -864,7 +796,6 @@ button:hover{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 60px 20px auto;
-        /* padding: 0 0 0 60px; */
     }
     .image_heading_container{
         /* background-color: red; */
@@ -888,11 +819,8 @@ button:hover{
     .image_container{
         display: grid;
         grid-template-columns: repeat(2 , 1fr);
-        /* grid-row-gap: 10%; */
-        /* grid-column-gap: 10%; */
         width: 90%;
         /* background-color: rgb(136, 76, 76); */
-        /* margin: 0 auto 0 ; */
     }
     .image{
         /* background-color: red; */
@@ -918,7 +846,6 @@ button:hover{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 60px 20px auto;
-        /* padding: 0 0 0 60px; */
     }
     .image_heading_container{
         /* background-color: red; */
@@ -942,8 +869,6 @@ button:hover{
     .image_container{
         display: grid;
         grid-template-columns: repeat(2 , 1fr);
-        /* grid-row-gap: 10%;
-        grid-column-gap: 10%; */
         width: 89%;
         /* background-color: rgb(136, 76, 76); */
         margin: 0 auto 0 ;
@@ -992,13 +917,10 @@ button:hover{
     .image_dash{
         /* background-color: rgb(43, 17, 17); */
         width: 87%;
-        /* margin: 15px auto 12px; */
     }
     .image_container{
         display: grid;
         grid-template-columns: repeat(2 , 1fr);
-        /* grid-row-gap: 10%;
-        grid-column-gap: 10%; */
         width: 87%;
         /* background-color: rgb(136, 76, 76); */
         margin: 0 auto 0 ;

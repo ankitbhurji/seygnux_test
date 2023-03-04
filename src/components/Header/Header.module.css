@@ -10,57 +10,37 @@
 .header{
     /* background-color: pink; */
     background-color: #FFFFFF;
-    /* display: flex; */
     justify-content: space-between;
     padding: 10px 0 0 0;
 
 
+}
+.navbar_container_disable div:hover{
+    cursor: pointer;
+    opacity: 0.5;
 }
 .logo_container{
     margin: auto 0;
     padding: 0 25px 0 25px;
 
 }
-/* @media only screen and (min-width: 580px) {
-    .navbar_container {
-        display: flex;
-        width: 700px;
-        justify-content: space-evenly;
-        background-color: red;
-    }
-    .navbar_container div{
-        padding-right: 30px;
-        font-size: 22px;
-        font-family: Arial, Helvetica, sans-serif;
-        margin: auto 0 ;
-    }
-  } */
-/* @media only screen and (max-width:580px) {
-    .navbar_container{
-        background-color: blue;
-        display: flex;
-    }
-    .navbar_container div{
-        padding-right: 10px;
-        font-size: 16px;
-        font-family: Arial, Helvetica, sans-serif;
-        margin: auto 0 ;
-    }
-} */
 @media only screen and (max-width:600px){
     .logo_container{
         display: flex;
-        /* background-color: red; */
         justify-content: space-between;
         margin: auto 0;
         padding: 10px 25px 10px 25px;
     }
     .navbar_container{
-        background-color: rgba(255, 255, 255, 0.6);  
+        background-color:rgb(17, 17, 17, 0.9) ;  
+        color: #818181;
         display: grid;
         grid-template-columns: 1fr;
         margin: 6px 0 0 0;
-        /* grid-template-rows: 200px; */
+        padding:20px 0 20px 0;
+    }
+    .navbar_container div:hover{
+        color: white;
     }
    
     .sample{
@@ -108,7 +88,6 @@
     }
     .navbar_container_disable{
         display: flex;
-        /* width: 75%; */
         margin: auto 0;
         justify-content: space-evenly;
         font-size: 20px;
@@ -118,6 +97,7 @@
     .navbar_container_disable div{
         margin-left: 16px;
     }
+    
   }
 
   @media only screen and (min-width: 768px){
