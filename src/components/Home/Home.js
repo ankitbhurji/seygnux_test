@@ -83,12 +83,12 @@ function Home() {
                     </div>
                         <div className={styles.image}>
                         <img className={styles.fake_image} src='https://img.freepik.com/free-photo/low-angle-shot-facade-white-modern-building-blue-clear-sky_181624-48219.jpg?size=626&ext=jpg&uid=R94525060&ga=GA1.1.2027631365.1674120080&semt=robertav1' width="600" height="400"/>
-                        <div className={styles.image_name}>OVEROCMMING CREATIVE BLOCK</div>
+                        <div className={styles.image_name}>THE PATH OF THE LEAST RESISTANCE</div>
                         <div className={styles.image_time}>Brain Gardner. May 1, 2017</div>
                     </div>
                     <div className={styles.image}>
                         <img className={styles.fake_image} src='https://img.freepik.com/free-photo/low-angle-shot-facade-white-modern-building-blue-clear-sky_181624-48219.jpg?size=626&ext=jpg&uid=R94525060&ga=GA1.1.2027631365.1674120080&semt=robertav1' width="600" height="400"/>
-                        <div className={styles.image_name}>OVEROCMMING CREATIVE BLOCK</div>
+                        <div className={styles.image_name}>HOW TO REACH NEW HEIGHTS</div>
                         <div className={styles.image_time}>Brain Gardner. May 1, 2017</div>
                     </div>
                 </div>
