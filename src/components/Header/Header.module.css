@@ -24,6 +24,9 @@
     padding: 0 25px 0 25px;
 
 }
+.navbar_button{
+   
+}
 @media only screen and (max-width:600px){
     .logo_container{
         display: flex;
@@ -38,6 +41,10 @@
         grid-template-columns: 1fr;
         margin: 6px 0 0 0;
         padding:20px 0 20px 0;
+        /* margin-top: -20px; */
+        transition: 0.8s;
+        z-index: -1;
+        position: relative;
     }
     .navbar_container div:hover{
         color: white;
@@ -68,9 +75,30 @@
         float: right;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
+        
     }
     .navbar_container_disable{
-        display: none;
+        /* display: none; */
+        visibility: hidden;
+        margin-top: -20px;
+        transition: 0.8s;
+
+        background-color:rgb(17, 17, 17, 0.9) ;  
+        color: #818181;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: -400px 0 0 0;
+        padding:20px 0 20px 0;
+        z-index: -1;
+        position: relative;
+    }
+    .navbar_container_disable div{
+        font-size: 20px;
+        text-align: center;
+        margin: 10px auto 0;
+        float: right;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
     }
     .search_container{
         
@@ -83,8 +111,12 @@
         display: flex;
         padding-right: 40px;
     }
+    .logo_container{
+        margin: 15px 0 0 0;
+    }
     .navbar_button{
-        display: none;
+        /* display: none; */
+        visibility: hidden;
     }
     .navbar_container_disable{
         display: flex;
@@ -104,4 +136,8 @@
     .navbar_container_disable{
         font-size: 25px;
     }
+    .logo_container{
+        margin: 15px 0 0 0;
+    }
   }
+ 
