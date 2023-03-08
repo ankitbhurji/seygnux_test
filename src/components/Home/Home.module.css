@@ -1,9 +1,13 @@
 body{
-    background-image: url('https://img.freepik.com/free-photo/low-angle-grayscale-shot-business-building_181624-19724.jpg?w=740&t=st=1677787027~exp=1677787627~hmac=76b71e0dc5cc85679157263341a90ea846b3dd44b9fcbfd7e05f610b0f107675');
-    background-repeat: no-repeat;
+    /* background-image: url('https://img.freepik.com/free-photo/low-angle-grayscale-shot-business-building_181624-19724.jpg?w=740&t=st=1677787027~exp=1677787627~hmac=76b71e0dc5cc85679157263341a90ea846b3dd44b9fcbfd7e05f610b0f107675'); */
+    /* background-image: url('https://images.pexels.com/photos/157811/pexels-photo-157811.jpeg?auto=compress&cs=tinysrgb&w=2000'); */
+    /* background-color: rgb(170, 156, 184, 0.5); */
+    background:linear-gradient( rgba(30, 39, 46, 0.8) 100%, rgba(30, 39, 46, 0.9)100%),url("https://images.pexels.com/photos/911758/pexels-photo-911758.jpeg?auto=compress&cs=tinysrgb&w=2600");
     background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 button{
     background-color: rgb(2, 2, 24);
     border: none;
